@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Test_nativeview" max_length="40" name="x_58872_needit_test_nativeview" type="collection">
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element choice="1" label="Test choice" mandatory="true" max_length="40" name="test_choice" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="choice_1" sequence="1" value="choice_1"/>
+                <element inactive_on_update="false" label="choice_2" sequence="2" value="choice_2"/>
+            </choice>
+        </element>
+    </element>
+</database>
